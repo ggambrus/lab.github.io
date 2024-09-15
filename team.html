@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Members - Neural Patterns of Cognition Lab</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="header-placeholder"></div>
+    
+    <main>
+        <section class="members">
+            <div class="container">
+                <h1>Team</h1>
+                <div id="members-list">
+                    <!-- Members will be dynamically loaded here -->
+                </div>
+				<div id="cooperation-list"><h2>Cooperations</h2></div>
+				<div id="alumni-list"><h2>Alumni</h2></div>
+            </div>
+        </section>
+    </main>
+    
+    <div id="footer-placeholder"></div>
+	
+    <script src="prettystr.js"></script>
+    <script src="include.js"></script>
+	
+	<script>
+		document.addEventListener("DOMContentLoaded", function() {
+			// Create sections for current members, cooperations, and alumni
+			const membersList = document.getElementById('members-list');
+			const cooperationList = document.getElementById('cooperation-list');
+			const alumniList = document.getElementById('alumni-list');
+
+			// Track if we have any cooperation or alumni members
+			let hasCooperation = false;
+			let hasAlumni = false;
+
+			fetch('team\/members.json')
+				.then(response => response.json())
+				.then(data => {
+					data.forEach(member => {
+						const memberDiv = document.createElement('div');
+						memberDiv.classList.add('member');
+
+						// Member image
+						const img = document.createElement('img');
+						img.src = member.image;
+						img.alt = `${member.name}'s profile picture`;
+						memberDiv.appendChild(img);
+
+						// Member name
+						const name = document.createElement('h2');
+						name.textContent = member.name;
+						memberDiv.appendChild(name);
+
+						// Profile link
+						if (member.profile_page) {
+							const profileLink = document.createElement('a');
+							profileLink.href = member.profile_page;
+							profileLink.target = "_blank";
+							profileLink.textContent = 'View Profile';
+							memberDiv.appendChild(profileLink);
+						}
+
+						// Title
+						const title = document.createElement('p');
+						title.classList.add('title');
+						title.textContent = member.title;
+						memberDiv.appendChild(title);
+
+						// Bio
+						const bio = document.createElement('p');
+						bio.classList.add('bio');
+						bio.textContent = member.bio;
+						memberDiv.appendChild(bio);
+
+						// Research interests
+						const researchInterests = document.createElement('p');
+						researchInterests.classList.add('research-interests');
+						researchInterests.innerHTML = `<strong>Research Interests:</strong> ${member.research_interests}`;
+						memberDiv.appendChild(researchInterests);
+
+						// Email with reveal text
+						if (member.email) {
+							const email = document.createElement('p');
+							email.classList.add('email');
+							email.innerHTML = `<strong>Email:</strong> ` + replaceRevealText(member.email);
+							memberDiv.appendChild(email);
+						}
+
+						// Publications
+						if (member.publications && member.publications.length > 0) {
+							const publications = document.createElement('div');
+							publications.classList.add('publications');
+							const publicationsTitle = document.createElement('h3');
+							publicationsTitle.textContent = 'Selected Publications:';
+							publications.appendChild(publicationsTitle);
+
+							const publicationsList = document.createElement('ul');
+							member.publications.forEach(pub => {
+								const pubItem = document.createElement('li');
+								const pubLink = document.createElement('a');
+								pubLink.href = pub.link;
+								pubLink.target = "_blank";
+								pubLink.textContent = pub.title;
+								pubItem.appendChild(pubLink);
+								publicationsList.appendChild(pubItem);
+							});
+							publications.appendChild(publicationsList);
+							memberDiv.appendChild(publications);
+						}
+
+						// Append to the correct section: Current, Cooperation, or Alumni
+						if (member.cooperation) {
+							cooperationList.appendChild(memberDiv); // Add to cooperation section
+							hasCooperation = true; // Flag that we have a cooperation member
+						} else if (member.alumni) {
+							alumniList.appendChild(memberDiv); // Add to alumni section
+							hasAlumni = true; // Flag that we have an alumni member
+						} else {
+							membersList.appendChild(memberDiv); // Add to current members section
+						}
+					});
+
+					// Hide the cooperation and alumni sections if no members were added
+					if (!hasCooperation) {
+						cooperationList.style.display = 'none';
+					}
+					if (!hasAlumni) {
+						alumniList.style.display = 'none';
+					}
+				})
+				.catch(error => console.error('Error fetching members:', error));
+		});
+	</script>
+
+
+
+
+</body>
+</html>

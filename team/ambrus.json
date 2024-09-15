@@ -1,0 +1,147 @@
+{
+    "name": "Dr. Géza Gergely Ambrus",
+    "photo": "profile_images\/GGA.jpg",
+	"email":"sadsadas",
+    "external_links": {
+        "orcid"         : "https:\/\/orcid.org\/0000-0002-8400-8178",
+        "researchgate"  : "https:\/\/www.researchgate.net\/profile\/Geza-Ambrus",
+		"scopus"        : "https:\/\/www.scopus.com\/authid\/detail.uri?authorId=36015188000",
+        "google scholar": "https:\/\/scholar.google.com\/citations?user=Xb6yDtQAAAAJ"
+    },
+	"social_media": {
+		"Mastodon"   : "https:\/\/fediscience.org\/@GGAmbrus",
+		"Twitter (X)" : "https:\/\/x.com\/GGAmbrus"
+	},
+    "education": [
+        {"degree"    : "Ph.D. in Biology", 
+		 "university": "Georg August University of Göttingen", 
+		 "logo"      : "images\/logo_UniGoe_64x64.png"},
+		 
+        {"degree"    : "M.Sc. in Psychology",
+		 "university": "University of Szeged",
+		 "logo"      : "images\/logo_SZTE_64x64.png"}
+		 
+    ],
+    "publications": {
+        "journal_articles": [
+			{"authors": "[@Ambrus, G. G.|member.html#ambrus]",	"year": "2024",	"title": "Shared neural codes of recognition memory",	"journal": "Scientific Reports",	"issnumpg": "14(1), 15846",	"doi":"10.1038/s41598-024-66158-y", "link": "https:\/\/doi.org\/10.1038/s41598-024-66158-y "},
+			{"authors": "Klink, H., Kaiser, D., Stecher, R., <u>[@Ambrus, G. G.|member.html#ambrus], & Kovács, G.</u>",	"year": "2023",	"title": "Your place or mine? The neural dynamics of personally familiar scene recognition suggests category independent familiarity encoding",	"journal": "Cerebral Cortex",	"issnumpg": "33(24), 11634–11645",	"doi":"10.1093/cercor/bhad397", "link": "https:\/\/doi.org\/10.1093/cercor/bhad397"},
+			{"authors": "Kovács, G., Li, C., [@Ambrus, G. G.|member.html#ambrus], & Burton, A. M.",	"year": "2023",	"title": "The neural dynamics of familiarity-dependent face identity representation",	"journal": "Psychophysiology",	"issnumpg": "60(9), e14304",	"doi":"10.1111/psyp.14304", "link": "https:\/\/doi.org\/10.1111/psyp.14304"},
+			{"authors": "Dalski, A., Kovács, G., & [@Ambrus, G. G.|member.html#ambrus]",	"year": "2023",	"title": "No semantic information is necessary to evoke general neural signatures of face familiarity: evidence from cross-experiment classification",	"journal": "Brain Structure & Function",	"issnumpg": "228(2), 449–462",	"doi":"10.1007/s00429-022-02583-x", "link": "https:\/\/doi.org\/10.1007/s00429-022-02583-x"},
+			{"authors": "Dalski, A., Kovács, G., Wiese, H., & [@Ambrus, G. G.|member.html#ambrus]",	"year": "2022",	"title": "Characterizing the shared signals of face familiarity: Long-term acquaintance, voluntary control, and concealed knowledge",	"journal": "Brain Research",	"issnumpg": "1796(148094), 148094",	"doi":"10.1016/j.brainres.2022.148094", "link": "https:\/\/doi.org\/10.1016/j.brainres.2022.148094"},
+			{"authors": "Li, C., Burton, A. M., <u>[@Ambrus, G. G.|member.html#ambrus], & Kovács, G.</u>",	"year": "2022",	"title": "A neural measure of the degree of face familiarity",	"journal": "Cortex",	"issnumpg": "155, 1–12",	"doi":"10.1016/j.cortex.2022.06.012", "link": "https:\/\/doi.org\/10.1016/j.cortex.2022.06.012"},
+			{"authors": "Dalski, A., Kovács, G., & [@Ambrus, G. G.|member.html#ambrus]",	"year": "2022",	"title": "Evidence for a general neural signature of face familiarity",	"journal": "Cerebral Cortex",	"issnumpg": "32(12), 2590–2601",	"doi":"10.1093/cercor/bhab366", "link": "https:\/\/doi.org\/10.1093/cercor/bhab366"},
+			{"authors": "Rostalski, S.-M., Robinson, J. E., [@Ambrus, G. G.|member.html#ambrus], Johnston, P., & Kovács, G.",	"year": "2022",	"title": "Person identity-specific adaptation effects in the ventral occipito-temporal cortex",	"journal": "The European Journal of Neuroscience",	"issnumpg": "55(5), 1232–1243",	"doi":"10.1111/ejn.15604", "link": "https:\/\/doi.org\/10.1111/ejn.15604"},
+			{"authors": "Vékony, T., [@Ambrus, G. G.|member.html#ambrus], Janacsek, K., & Nemeth, D.",	"year": "2022",	"title": "Cautious or causal? Key implicit sequence learning paradigms should not be overlooked when assessing the role of DLPFC (Commentary on Prutean et al.)",	"journal": "Cortex",	"issnumpg": "148, 222–226",	"doi":"10.1016/j.cortex.2021.10.001", "link": "https:\/\/doi.org\/10.1016/j.cortex.2021.10.001"},
+			{"authors": "Sperl, L., Ruttloff, J. M., [@Ambrus, G. G.|member.html#ambrus], Kaufmann, J. M., Cañal-Bruland, R., & Schweinberger, S. R.",	"year": "2021",	"title": "Effects of motor restrictions on preparatory brain activity",	"journal": "Experimental Brain Research",	"issnumpg": "239(11), 3189–3203",	"doi":"10.1007/s00221-021-06190-w", "link": "https:\/\/doi.org\/10.1007/s00221-021-06190-w"},
+			{"authors": "Eick, Charlotta M., [@Ambrus, G. G.|member.html#ambrus], & Kovács, G.",	"year": "2021",	"title": "Inhibition of the occipital face area modulates the electrophysiological signals of face familiarity: A combined cTBS-EEG study",	"journal": "Cortex",	"issnumpg": "141, 156–167",	"doi":"10.1016/j.cortex.2021.03.034", "link": "https:\/\/doi.org\/10.1016/j.cortex.2021.03.034"},
+			{"authors": "Sperl, L., [@Ambrus, G. G.|member.html#ambrus], Kaufmann, J. M., Schweinberger, S. R., & Cañal-Bruland, R.",	"year": "2021",	"title": "Electrophysiological correlates underlying interference control in motor tasks",	"journal": "Biological Psychology",	"issnumpg": "163(108138), 108138",	"doi":"10.1016/j.biopsycho.2021.108138", "link": "https:\/\/doi.org\/10.1016/j.biopsycho.2021.108138"},
+			{"authors": "[@Ambrus, G. G.|member.html#ambrus], Eick, C. M., Kaiser, D., & Kovács, G",	"year": "2021",	"title": "Getting to know you: Emerging neural representations during face familiarization",	"journal": "The Journal of Neuroscience",	"issnumpg": "41(26), 5687–5698",	"doi":"10.1523/JNEUROSCI.2466-20.2021", "link": "https:\/\/doi.org\/10.1523/JNEUROSCI.2466-20.2021"},
+			{"authors": "[@Ambrus, G. G.|member.html#ambrus], Vékony, T., Janacsek, K., Trimborn, A. B. C., Kovács, G., & Nemeth, D.",	"year": "2020",	"title": "When less is more: Enhanced statistical learning of non-adjacent dependencies after disruption of bilateral DLPFC",	"journal": "Journal of Memory and Language",	"issnumpg": "114(104144), 104144",	"doi":"10.1016/j.jml.2020.104144", "link": "https:\/\/doi.org\/10.1016/j.jml.2020.104144"},
+			{"authors": "Eick, Charlotta Marina, Kovács, G., Rostalski, S.-M., Röhrig, L., & [@Ambrus, G. G.|member.html#ambrus]",	"year": "2020",	"title": "The occipital face area is causally involved in identity-related visual-semantic associations",	"journal": "Brain Structure & Function",	"issnumpg": "225(5), 1483–1493",	"doi":"10.1007/s00429-020-02068-9", "link": "https:\/\/doi.org\/10.1007/s00429-020-02068-9"},
+			{"authors": "<u>[@Ambrus, G. G.|member.html#ambrus], Kaiser, D.</u>, Cichy, R. M., & Kovács, G.",	"year": "2019",	"title": "The neural dynamics of familiar face recognition",	"journal": "Cerebral Cortex",	"issnumpg": "29(11), 4775–4784",	"doi":"10.1093/cercor/bhz010", "link": "https:\/\/doi.org\/10.1093/cercor/bhz010"},
+			{"authors": "[@Ambrus, G. G.|member.html#ambrus], Amado, C., Krohn, L., & Kovács, G.",	"year": "2019",	"title": "TMS of the occipital face area modulates cross-domain identity priming",	"journal": "Brain Structure & Function",	"issnumpg": "224(1), 149–157",	"doi":"10.1007/s00429-018-1768-0", "link": "https:\/\/doi.org\/10.1007/s00429-018-1768-0"},
+			{"authors": "Amado, C., Kovács, P., Mayer, R., [@Ambrus, G. G.|member.html#ambrus], Trapp, S., & Kovács, G.",	"year": "2018",	"title": "Neuroimaging results suggest the role of prediction in cross-domain priming",	"journal": "Scientific Reports",	"issnumpg": "8(1)",	"doi":"10.1038/s41598-018-28696-0", "link": "https:\/\/doi.org\/10.1038/s41598-018-28696-0"},
+			{"authors": "[@Ambrus, G. G.|member.html#ambrus], Dotzer, M., Schweinberger, S. R., & Kovács, G.",	"year": "2017",	"title": "The occipital face area is causally involved in the formation of identity-specific face representations",	"journal": "Brain Structure & Function",	"issnumpg": "222(9), 4271–4282",	"doi":"10.1007/s00429-017-1467-2", "link": "https:\/\/doi.org\/10.1007/s00429-017-1467-2"},
+			{"authors": "[@Ambrus, G. G.|member.html#ambrus], Windel, F., Burton, A. M., & Kovács, G.",	"year": "2017",	"title": "Causal evidence of the involvement of the right occipital face area in face-identity acquisition",	"journal": "NeuroImage",	"issnumpg": "148, 212–218",	"doi":"10.1016/j.neuroimage.2017.01.043", "link": "https:\/\/doi.org\/10.1016/j.neuroimage.2017.01.043"},
+			{"authors": "Gall, C., Schmidt, S., Schittkowski, M. P., Antal, A., [@Ambrus, G. G.|member.html#ambrus], Paulus, W., … Sabel, B. A.",	"year": "2016",	"title": "Alternating current stimulation for vision restoration after optic nerve damage: A randomized clinical trial",	"journal": "PloS One",	"issnumpg": "11(6), e0156134",	"doi":"10.1371/journal.pone.0156134", "link": "https:\/\/doi.org\/10.1371/journal.pone.0156134"},
+			{"authors": "<u>Grotheer, M., [@Ambrus, G. G.|member.html#ambrus]</u>, & Kovács, G.",	"year": "2016",	"title": "Causal evidence of the involvement of the number form area in the visual detection of numbers and letters",	"journal": "NeuroImage",	"issnumpg": "132, 314–319",	"doi":"10.1016/j.neuroimage.2016.02.069", "link": "https:\/\/doi.org\/10.1016/j.neuroimage.2016.02.069"},
+			{"authors": "[@Ambrus, G. G.|member.html#ambrus], Chaieb, L., Stilling, R., Rothkegel, H., Antal, A., & Paulus, W.",	"year": "2016",	"title": "Monitoring transcranial direct current stimulation induced changes in cortical excitability during the serial reaction time task",	"journal": "Neuroscience Letters",	"issnumpg": "616, 98–104",	"doi":"10.1016/j.neulet.2016.01.039", "link": "https:\/\/doi.org\/10.1016/j.neulet.2016.01.039"},
+			{"authors": "[@Ambrus, G. G.|member.html#ambrus], Pisoni, A., Primaßin, A., Turi, Z., Paulus, W., & Antal, A.",	"year": "2015",	"title": "Bi-frontal transcranial alternating current stimulation in the ripple range reduced overnight forgetting",	"journal": "Frontiers in Cellular Neuroscience",	"issnumpg": "9, 374",	"doi":"10.3389/fncel.2015.00374", "link": "https:\/\/doi.org\/10.3389/fncel.2015.00374"},
+			{"authors": "Grundey, J., Amu, R., [@Ambrus, G. G.|member.html#ambrus], Batsikadze, G., Paulus, W., & Nitsche, M. A.",	"year": "2015",	"title": "Double dissociation of working memory and attentional processes in smokers and non-smokers with and without nicotine",	"journal": "Psychopharmacology",	"issnumpg": "232(14), 2491–2501",	"doi":"10.1007/s00213-015-3880-7", "link": "https:\/\/doi.org\/10.1007/s00213-015-3880-7"},
+			{"authors": "Pisoni, A., Turi, Z., Raithel, A., [@Ambrus, G. G.|member.html#ambrus], Alekseichuk, I., Schacht, A., … Antal, A.",	"year": "2015",	"title": "Separating recognition processes of declarative memory via anodal tDCS: boosting old item recognition by temporal and new item detection by parietal stimulation",	"journal": "PloS One",	"issnumpg": "10(3), e0123085",	"doi":"10.1371/journal.pone.0123085", "link": "https:\/\/doi.org\/10.1371/journal.pone.0123085"},
+			{"authors": "Janacsek, K., [@Ambrus, G. G.|member.html#ambrus], Paulus, W., Antal, A., & Nemeth, D.",	"year": "2015",	"title": "Right hemisphere advantage in statistical learning: evidence from a probabilistic sequence learning task",	"journal": "Brain Stimulation",	"issnumpg": "8(2), 277–282",	"doi":"10.1016/j.brs.2014.11.008", "link": "https:\/\/doi.org\/10.1016/j.brs.2014.11.008"},
+			{"authors": "Antal, A., [@Ambrus, G. G.|member.html#ambrus], & Chaieb, L.",	"year": "2014",	"title": "The impact of electrical stimulation techniques on behavior",	"journal": "Wiley Interdisciplinary Reviews. Cognitive Science",	"issnumpg": "5(6), 649–659",	"doi":"10.1002/wcs.1319", "link": "https:\/\/doi.org\/10.1002/wcs.1319"},
+			{"authors": "Antal, A., [@Ambrus, G. G.|member.html#ambrus], & Chaieb, L.",	"year": "2014",	"title": "Toward unraveling reading-related modulations of tDCS-induced neuroplasticity in the human visual cortex","journal":"Frontiers in Psychology",	"issnumpg": "5, 642",	"doi":"10.3389/fpsyg.2014.00642", "link": "https:\/\/doi.org\/10.3389/fpsyg.2014.00642"},
+			{"authors": "Turi, Zsolt, [@Ambrus, G. G.|member.html#ambrus], Ho, K.-A., Sengupta, T., Paulus, W., & Antal, A.",	"year": "2014",	"title": "When size matters: large electrodes induce greater stimulation-related cutaneous discomfort than smaller electrodes at equivalent current density",	"journal": "Brain Stimulation",	"issnumpg": "7(3), 460–467",	"doi":"10.1016/j.brs.2014.01.059", "link": "https:\/\/doi.org\/10.1016/j.brs.2014.01.059"},
+			{"authors": "Chaieb, L., Antal, A., [@Ambrus, G. G.|member.html#ambrus], & Paulus, W.",	"year": "2014",	"title": "Brain-derived neurotrophic factor: its impact upon neuroplasticity and neuroplasticity inducing transcranial brain stimulation protocols",	"journal": "Neurogenetics",	"issnumpg": "15(1), 1–11",	"doi":"10.1007/s10048-014-0393-1", "link": "https:\/\/doi.org\/10.1007/s10048-014-0393-1"},
+			{"authors": "Chaieb, Leila, Antal, A., Pisoni, A., Saiote, C., Opitz, A., [@Ambrus, G. G.|member.html#ambrus], … Paulus, W.",	"year": "2014",	"title": "Safety of 5 kHz tACS","journal":"Brain Stimulation",	"issnumpg": "7(1), 92–96",	"doi":"10.1016/j.brs.2013.08.004", "link": "https:\/\/doi.org\/10.1016/j.brs.2013.08.004"},
+			{"authors": "Turi, Zs, [@Ambrus, G. G.|member.html#ambrus], Janacsek, K., Emmert, K., Hahn, L., Paulus, W., & Antal, A.",	"year": "2013",	"title": "Both the cutaneous sensation and phosphene perception are modulated in a frequency-specific manner during transcranial alternating current stimulation",	"journal": "Restorative Neurology and Neuroscience",	"issnumpg": "31(3), 275–285",	"doi":"10.3233/RNN-120297", "link": "https:\/\/doi.org\/10.3233/RNN-120297"},
+			{"authors": "[@Ambrus, G. G.|member.html#ambrus], Al-Moyed, H., Chaieb, L., Sarp, L., Antal, A., & Paulus, W.",	"year": "2012",	"title": "The fade-in – Short stimulation – Fade out approach to sham tDCS – Reliable at 1 mA for naïve and experienced subjects, but not investigators",	"journal": "Brain Stimulation",	"issnumpg": "5(4), 499–504",	"doi":"10.1016/j.brs.2011.12.001", "link": "https:\/\/doi.org\/10.1016/j.brs.2011.12.001"},
+			{"authors": "[@Ambrus, G. G.|member.html#ambrus], Zimmer, M., Kincses, Z. T., Harza, I., Kovács, G., Paulus, W., & Antal, A.",	"year": "2011",	"title": "The enhancement of cortical excitability over the DLPFC before and during training impairs categorization in the prototype distortion task",	"journal": "Neuropsychologia",	"issnumpg": "49(7), 1974–1980",	"doi":"10.1016/j.neuropsychologia.2011.03.026", "link": "https:\/\/doi.org\/10.1016/j.neuropsychologia.2011.03.026"},
+			{"authors": "[@Ambrus, G. G.|member.html#ambrus], Antal, A., & Paulus, W.",	"year": "2011",	"title": "Comparing cutaneous perception induced by electrical stimulation using rectangular and round shaped electrodes",	"journal": "Clinical Neurophysiology",	"issnumpg": "122(4), 803–807",	"doi":"10.1016/j.clinph.2010.08.023", "link": "https:\/\/doi.org\/10.1016/j.clinph.2010.08.023"},
+			{"authors": "[@Ambrus, G. G.|member.html#ambrus], Paulus, W., & Antal, A.",	"year": "2010",	"title": "Cutaneous perception thresholds of electrical stimulation methods: comparison of tDCS and tRNS",	"journal": "Clinical Neurophysiology",	"issnumpg": "121(11), 1908–1914",	"doi":"10.1016/j.clinph.2010.04.020", "link": "https:\/\/doi.org\/10.1016/j.clinph.2010.04.020"}
+        ],
+		"preprints":[
+			{"authors" : "[@Ely, M. M.|member.html#ely], [@Ambrus, G. G.|member.html#ambrus]",
+		 	 "year"    : "2024",
+			 "title"   : "Shared Neural Dynamics of Facial Expression Processing",
+			 "journal" : "bioRxiv",
+			 "issnumpg": "2024-08",
+			 "doi"     : "10.1101\/2024.08.05.606517", 
+			 "link"    : "https:\/\/doi.org\/10.1101\/2024.08.05.606517"},
+			{"authors" : "Stecher, R., Muukkonen, I., Salmela, V., Rostalski, S.-M., [@Ambrus, G. G.|member.html#ambrus], Kovács, G.",
+			 "year"    : "2021",	
+			 "title"   : "Prolonged and distributed processing of facial identity in the human brain",	"journal": "bioRxiv",
+			 "issnumpg": "2021-06",	"doi":"10.1101/2021.06.23.449599", "link": "https:\/\/doi.org\/10.1101\/2021.06.23.449599"}
+		],
+		
+        "book_chapters": [
+            {
+                "authors"  : "Miniussi, C., [@Ambrus, G. G.|member.html#ambrus], Walsh, V., Pellicciari, M. C., & Antal, A.",
+				"year"     : "2012",
+				"title"    : "Transcranial Magnetic and Electric Stimulation in Perception and Cognition Research",
+				"book"     : "Transcranial Brain Stimulation",
+				"isbn"     : "9780429189425",
+				"editors"  : "Miniussi, C., Paulus, W., Rossini, P. M.",
+				"pages"    : "337-357",
+				"publisher": "CRC Press Taylor & Francis Group",
+                "link"     : "https:\/\/doi.org\/10.1201\/b14174-21"
+            }
+        ],
+        "talks": [
+				{"title": "Investigating Face Perception Using Cross-Experiment Multivariate Pattern Analysis of Neural Time-Series Data","venue": "INRC - “Integrating Cognitive and Computational Neuroscience”", "date": "12 June, 2024","city":"Bournemouth", "country": "United Kingdom", "eventlink": "https:\/\/blogs.bournemouth.ac.uk\/research\/2024\/04\/15\/interdisciplinary-computational-and-clinical-approaches-at-the-edge-of-brain-research"},
+				{"title": "Machine Learing in EEG", "venue":"Cutting Gardens", "date": "16 October 2023","city":"Bournemouth", "country": "United Kingdom", "eventlink": "https:\/\/cuttinggardens2023.org"},
+				{"title": "Exploring Generalizability in Recognition Memory Signals Through Multivariate Cross-Classification", "venue": "GEM 2023", "date": "12 June 2023", "city": "Bochum", "country": "Germany", "eventlink":"https:\/\/for2812.rub.de\/gem2023"},
+				{"title": "Multivariate Pattern Analysis Across Experiments", "venue": "Zhejiang Normal University","date": "23 March 2021", "city":"Jinhua", "country": "China (online)"},
+				{"title": "Investigating the Role of the Occipital Face Area", "venue": "Zhejiang Normal University","date": "16 March 2021", "city":"Jinhua", "country": "China (online)"},
+				{"title": "Investigating face-identity processing", "venue": "Lecture series on Biomedical Imaging in Neurosciences: Basic research and current results","date": "21 June 2019", "city": "Jena", "country": "Germany", "eventlink": "https:\/\/www.uniklinikum-jena.de\/idir\/en\/Department+of+Radiology\/institute\/Radiology+Research+Groups\/Medical+Physics+Group\/Teaching\/Archive\/Seminars+WS+2019_20-p-2526.html"},
+				{"title": "Investigating the face perception network", "date": "16 February 2017", "venue": "School of Psychology, Keynes College, University of Kent", "city": "Kent", "country": "United Kingdom"}
+        ],
+        "conferences": [
+				{
+					"authors": "[@Ambrus, G. G.|member.html#ambrus] and [@Ely, M. M.|member.html#ely]", "year":"2024", "title": "Exploring Emotional Face Familiarity Effects: Insights from EEG Multivariate Pattern Analysis", "event": "DUCOG 15, Conference of the Central European Cognitive Science Association", "city": "Dubrovnik", "country": "Croatia", "eventlink": "https:\/\/ducog.cecog.eu\/"},
+				{
+					"authors": "[@Ely, M. M.|member.html#ely] and [@Ambrus, G. G.|member.html#ambrus]", "year": "2024", "title": "Shared neural signals for the processing of facial expressions", "event": "INC2024, International Neuroscience Conference", "city": "Pécs", "country": "Hungary", "eventlink":"https:\/\/mitt2024.mitt.hu\/invitation"},
+				{
+					"authors": "[@Ambrus, G. G.|member.html#ambrus] and [@Ozdemir, B.|member.html#ozdemir]", "year": "2024", "title": "Shared neural codes of encoding and retrieval", "event": "INC2024, International Neuroscience Conference", "city": "Pécs", "country": "Hungary", "eventlink":"https:\/\/mitt2024.mitt.hu\/invitation"},
+				{
+					"authors": "[@Ambrus, G. G.|member.html#ambrus]", "year": "2023", "title": "Shared neural codes of recognition memory", "event": "DUCOG 14, Conference of the Central European Cognitive Science Association", "city": "Dubrovnik","country": "Croatia", "eventlink": "https:\/\/assets.website-files.com\/5f85b162a25bf15d2179eaa3\/6458d23cea5675e6375dfed1_2023_abstractbook_online.pdf"},
+				{
+					"authors": "Dalski, A., Kovács, G. and [@Ambrus, G. G.|member.html#ambrus]", "year": "2022", "title": "Evidence for a general neural signature of face familiarity", "event": "International Neuroscience Meeting - IBRO Workshop", "city": "Budapest", "country": "Hungary", "eventlink":"https:\/\/mitt2022.mitt.hu\/invitation"},
+				{
+					"authors": "Dalski, A., Kovács, G., Wiese, H. and [@Ambrus, G. G.|member.html#ambrus]", "year": "2022", "title": "Unique and Shared Neural Codes in Familiar Face Perception", "event": "International Neuroscience Meeting - IBRO Workshop", "city": "Budapest", "country": "Hungary", "eventlink":"https:\/\/mitt2022.mitt.hu\/invitation"},
+				{
+					"authors": "Dalski, A., Kovács, G. and [@Ambrus, G. G.|member.html#ambrus]", "year": "2021", "title": "Evidence for a general signature of face familiarity", "event": "12th Dubrovnik Conference on Cognitive Science (DUCOG)", "city": "Dubrovnik", "country": "Croatia", "eventlink":"https:\/\/sites.google.com\/view\/ducog2021-abstracts"},
+				{
+					"authors": "Dalski, A., Kovács, G. and [@Ambrus, G. G.|member.html#ambrus]", "year": "2021", "title": "Exploring the neural dynamics of semantic categories within and across images, first and second language words", "event": "12th Dubrovnik Conference on Cognitive Science (DUCOG)", "city": "Dubrovnik", "country": "Croatia", "eventlink":"https:\/\/sites.google.com\/view\/ducog2021-abstracts"},
+				{
+					"authors": "[@Ambrus, G. G.|member.html#ambrus], Kaiser, D., Cichy, R.M. and Kovács, G.", "year": "2020", "title": "The neural dynamics of familiar face recognition", "event": "IBRO Workshop", "city":"Szeged", "country": "Hungary", "eventlink": "https:\/\/mitt2020.mitt.hu\/"},
+				{
+					"authors": "[@Ambrus, G. G.|member.html#ambrus], Kaiser, D., Süllwold, L.-C., Cichy, R.M. and Kovács, G.", "year": "2019", "title": "The neural dynamics of familiar face recognition", "event": "Tagung Experimentell Arbeitender Psychologen", "city": "London", "country": "United Kingdom", "eventlink": "https:\/\/www.psycharchives.org\/en\/item\/8489be89-0e22-4cfb-b369-6e6132ea8c69"},
+				{
+					"authors": "[@Ambrus, G. G.|member.html#ambrus], Kaiser, D., Süllwold, L.-C., Cichy, R.M. and Kovács, G.", "year": "2018", "title": "The neural dynamics of familiar face recognition", "event": "The 41th European Conference on Visual Perception", "city": "Trieste", "country": "Italy", "eventlink": "https:\/\/www.ecvp2018.org\/"},
+				{
+					"authors": "Eisele, A., [@Ambrus, G. G.|member.html#ambrus], Windel, F., Burton, M.A. and Kovács, G.", "year": "2017", "title": "Facial identity learning in the occipital face area", "event": "FENS Regional Meeting", "city":"Pécs", "country":"Hungary", "eventlink":"https:\/\/www.fens.org\/meetings\/fens-regional-meeting\/past-frms"},
+				{
+					"authors": "[@Ambrus, G. G.|member.html#ambrus], Komes, J., Struckmann, W., Kurth, I., Schweinberger, S.R. and Kovács, G.", "year": "2017", "title": "The effects of the BDNF Val66Met polymorphism on autobiographical memory", "event": "FENS Regional Meeting", "city":"Pécs", "country":"Hungary", "eventlink":"https:\/\/www.fens.org\/meetings\/fens-regional-meeting\/past-frms"},
+				{
+					"authors": "[@Ambrus, G. G.|member.html#ambrus], Eisele, A., Windel, F., Burton, M.A. and Kovács, G.", "year": "2017", "title": "Facial identity learning in the occipital face area", "event": "40th European Conference on Visual Perception", "city": "Berlin", "country": "Germany", "eventlink":"http:\/\/www.ecvp.org\/2017\/conference.html"},
+				{
+					"authors": "Dotzer, M., [@Ambrus, G. G.|member.html#ambrus], Schweinberger, S.R. and Kovács, G.", "year": "2016", "title": "The occipital face area is causally involved in the formation of identity-specific face representations", "event": "Annual Scientific Meeting of the British Association for Cognitive Neuroscience","city": "Budapest", "country": "Hungary", "eventlink": "https:\/\/www.bacn.co.uk\/conferences"},
+				{
+					"authors": "[@Ambrus, G. G.|member.html#ambrus], Windel, F., Burton, M.A. and Kovács, G.", "year": "2016", "title": "The right occipital face area is involved in face identity acquisition", "event": "Annual Scientific Meeting of the British Association for Cognitive Neuroscience", "city": "Budapest", "country": "Hungary", "eventlink": "https:\/\/www.bacn.co.uk\/conferences"},
+				{
+					"authors": "Trimborn, A.-B.C., [@Ambrus, G. G.|member.html#ambrus], Janacsek, K., Kovács, G. and Németh, D.", "year": "2016", "title": "The effects of bilateral TMS on probabilistic sequence learning", "event": "International Conference on Memory", "city": "Budapest", "country": "Hungary", "eventlink": "https:\/\/icom2016.com"},
+				{
+					"authors": "Windel, F., [@Ambrus, G. G.|member.html#ambrus], Burton, M.A. and Kovács, G.", "year": "2016", "title": "The stability of identity-representations acquired through brief exposure", "event": "International Conference on Memory", "city": "Budapest", "country": "Hungary", "eventlink": "https:\/\/icom2016.com"},
+				{
+					"authors": "[@Ambrus, G. G.|member.html#ambrus], Komes, J., Struckmann, W., Kurth, I., Schweinberger, S.R. and Kovács, G.", "year": "2016", "title": "The effects of the BDNF Val66Met polymorphism on autobiographical memory", "event": "International Conference on Memory", "city": "Budapest", "country": "Hungary", "eventlink": "https:\/\/icom2016.com"},
+				{
+					"authors": "[@Ambrus, G. G.|member.html#ambrus], Grotheer, M. and Kovács, G.", "year": "2016", "title": "Causal evidence of the involvement of the number form area in the visual detection of numbers and letters", "event": "FENS Forum", "city": "Copenhagen", "country": "Denmark", "eventlink":"http:\/\/forum2016.fens.org"},
+				{
+					"authors": "[@Ambrus, G. G.|member.html#ambrus], Kovács, P., Grotheer, M. and Kovács, G.", "year": "2016", "title": "Investigating the role of the lateral occipital complex in face perception using transcranial magnetic stimulation", "event": "IBRO Workshop", "city": "Budapest", "country": "Hungary"},
+				{	"authors": "[@Ambrus, G. G.|member.html#ambrus], Chaieb, L., Stilling, R., Antal, A. and Paulus, W.", "year": 		"2011", "title": "Monitoring changes in cortical excitability induced by transcranial direct current stimulation during the execution of a serial reaction time task", "event": "4th International Conference on Transcranial Magnetic and Direct Current Stimulation", "city": "Rome", "country": "Italy"}
+        ]
+    }
+}

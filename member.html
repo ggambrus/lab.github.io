@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Member Profile - Neural Patterns of Cognition Lab</title>
+	
+	<link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="member-profile.css">
+</head>
+<body>
+    <div id="header-placeholder"></div>
+    <main>
+        <section class="profile">
+            <div class="container">
+                <div class="profile-header">
+                    <img id="member-photo" alt="Member Photo">
+                    <div>
+                        <h1 id="member-name"></h1>
+						<div class= "link-tags">
+							<div class="external-links" id="external-links"></div>
+							<div class="social-media" id="social-media"></div>
+						</div>
+                    </div>
+                </div>
+                <div class="profile-details">
+                    <!--journal articles, book chapters, talks, conferences inserted here -->
+                </div>
+            </div>
+        </section>
+    </main>
+	
+	<div id="footer-placeholder"></div>
+	
+	<script src="include.js"></script>
+	<script src="prettystr.js"></script>
+	
+	<script>
+	document.addEventListener("DOMContentLoaded", function() {
+	
+	// Scroll to the element with the ID specified in the URL hash
+	const hash = window.location.hash.substring(1); // Remove the '#' from the beginning
+
+    fetch('team/'+hash+'.json')
+        .then(response => response.json())
+        .then(data => {
+            // Set member photo
+            const memberPhoto = document.getElementById('member-photo');
+            if (data.photo) {
+                memberPhoto.src = data.photo;
+                memberPhoto.alt = data.name;
+            } else {
+                memberPhoto.style.display = 'none';
+            }
+
+            // Set member name
+            const memberName = document.getElementById('member-name');
+            memberName.textContent = data.name || 'Name not provided';
+
+            // Set external links
+            const externalLinks = document.getElementById('external-links');
+            if (data.external_links) {
+                for (const [key, value] of Object.entries(data.external_links)) {
+                    const link = document.createElement('a');
+                    link.href = value;
+                    link.textContent = key.charAt(0).toUpperCase() + key.slice(1);
+                    link.target = "_blank";
+                    externalLinks.appendChild(link);
+                }
+            }
+
+            // Set social media links
+            const socialMedia = document.getElementById('social-media');
+            if (data.social_media) {
+                for (const [key, value] of Object.entries(data.social_media)) {
+                    const link = document.createElement('a');
+                    link.href = value;
+                    link.textContent = key;
+                    link.target = "_blank";
+                    socialMedia.appendChild(link);
+                }
+            }
+
+            // Populate profile details
+            const profileDetails = document.querySelector('.profile-details');
+
+            // Education
+			// Education
+			if (data.education) {
+				const educationSection = document.createElement('section');
+				educationSection.innerHTML = '<h2>Education</h2>';
+				const educationList = document.createElement('ul');
+				data.education.forEach(item => {
+					const listItem = document.createElement('li');
+
+					// Create a container for each education entry
+					const educationEntry = document.createElement('div');
+					educationEntry.classList.add('education-entry');
+
+					// If there's a logo, create an img element and append it
+					if (item.logo) {
+						const logo = document.createElement('img');
+						logo.src = item.logo;
+						logo.alt = `${item.university} logo`;
+						logo.width = 40;
+						logo.height = 40;
+						educationEntry.appendChild(logo);
+					}
+
+					// Create a div for the degree and university text
+					const educationText = document.createElement('div');
+					educationText.classList.add('education-text');
+
+					// Degree
+					if (item.degree) {
+						const degree = document.createElement('p');
+						degree.textContent = item.degree;
+						educationText.appendChild(degree);
+					}
+
+					// University
+					if (item.university) {
+						const university = document.createElement('p');
+						university.textContent = item.university;
+						educationText.appendChild(university);
+					}
+
+					// Append the text to the education entry container
+					educationEntry.appendChild(educationText);
+
+					// Append the education entry to the list item
+					listItem.appendChild(educationEntry);
+					educationList.appendChild(listItem);
+				});
+				educationSection.appendChild(educationList);
+				profileDetails.appendChild(educationSection);
+			}
+
+
+            // Publications
+            if (data.publications) {
+                const publications = data.publications;
+
+                // Journal Articles
+                if (publications.journal_articles) {
+                    const journalSection = document.createElement('section');
+                    journalSection.innerHTML = '<h2>Journal Articles</h2>';
+                    const journalList = document.createElement('ul');
+                    publications.journal_articles.forEach(article => {
+                        const listItem = document.createElement('li');
+                        const articleLink = article.link ? `<a href="${article.link}" target="_blank">${article.title}</a>` : article.title;
+						const authorsList = replaceLinksWithIcons(article.authors);
+                        listItem.innerHTML = `${authorsList} (${article.year}). ${articleLink}. <em>${article.journal}</em>, ${article.issnumpg}. <a href="https://doi.org/${article.doi}" target="_blank">${article.doi}</a>`;
+                        journalList.appendChild(listItem);
+                    });
+                    journalSection.appendChild(journalList);
+                    profileDetails.appendChild(journalSection);
+                }
+				
+				// Preprints
+                if (publications.preprints) {
+                    const preprintSection = document.createElement('section');
+                    preprintSection.innerHTML = '<h2>Preprints</h2>';
+                    const preprintList = document.createElement('ul');
+                    publications.preprints.forEach(article => {
+                        const listItem = document.createElement('li');
+                        const articleLink = article.link ? `<a href="${article.link}" target="_blank">${article.title}</a>` : article.title;
+						const authorsList = replaceLinksWithIcons(article.authors);
+                        listItem.innerHTML = `${authorsList} (${article.year}). ${articleLink}. <em>${article.journal}</em>, ${article.issnumpg}. <a href="https://doi.org/${article.doi}" target="_blank">${article.doi}</a>`;
+                        preprintList.appendChild(listItem);
+                    });
+                    preprintSection.appendChild(preprintList);
+                    profileDetails.appendChild(preprintSection);
+                }
+
+                // Book Chapters
+                if (publications.book_chapters) {
+                    const bookSection = document.createElement('section');
+                    bookSection.innerHTML = '<h2>Book Chapters</h2>';
+                    const bookList = document.createElement('ul');
+                    publications.book_chapters.forEach(chapter => {
+                        const listItem = document.createElement('li');
+                        const chapterLink = chapter.link ? `<a href="${chapter.link}" target="_blank">${chapter.title}</a>` : chapter.title;
+						const authorsList = replaceLinksWithIcons(chapter.authors);
+                        listItem.innerHTML = `${authorsList} (${chapter.year}). ${chapterLink}. In ${chapter.editors} (Ed.), <em>${chapter.book}</em> (pp. ${chapter.pages}). ${chapter.publisher}. ISBN: ${chapter.isbn}.`;
+                        bookList.appendChild(listItem);
+                    });
+                    bookSection.appendChild(bookList);
+                    profileDetails.appendChild(bookSection);
+                }
+
+                // Talks
+                if (publications.talks) {
+                    const talksSection = document.createElement('section');
+                    talksSection.innerHTML = '<h2>Talks</h2>';
+                    const talksList = document.createElement('ul');
+                    publications.talks.forEach(talk => {
+                        const listItem = document.createElement('li');
+                        const talkLink = talk.eventlink ? `<a href="${talk.eventlink}" target="_blank">${talk.title}</a>` : talk.title;
+                        listItem.innerHTML = `${talkLink}. Presented at ${talk.venue}, ${talk.city}, ${talk.country} on ${talk.date}.`;
+                        talksList.appendChild(listItem);
+                    });
+                    talksSection.appendChild(talksList);
+                    profileDetails.appendChild(talksSection);
+                }
+
+				// Conferences
+				if (publications.conferences) {
+					const conferencesSection = document.createElement('section');
+					conferencesSection.innerHTML = '<h2>Conferences</h2>';
+					const conferencesList = document.createElement('ul');
+					publications.conferences.forEach(conference => {
+						const listItem = document.createElement('li');
+						const conferenceLink = conference.eventlink ? `<a href="${conference.eventlink}" target="_blank">${conference.event}</a>` : conference.event;
+						const authorsList = replaceLinksWithIcons(conference.authors);
+						listItem.innerHTML = `${authorsList} (${conference.year}). ${conference.title}. ${conferenceLink}, ${conference.city}, ${conference.country}.`;
+						conferencesList.appendChild(listItem);
+					});
+					conferencesSection.appendChild(conferencesList);
+					profileDetails.appendChild(conferencesSection);
+				}
+            }
+        })
+        .catch(error => {
+            console.error('Error loading member data:', error);
+        });
+});
+</script>
+	
+	
+	
+	
+	
+	
+</body>
+</html>

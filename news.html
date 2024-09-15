@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News - Neural Patterns of Cognition Lab</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="news-page.css">
+</head>
+<body>
+    <div id="header-placeholder"></div>
+    
+    <main>
+        <section class="news">
+            <div class="container">
+                <h1>Latest News</h1>
+                <div id="news-list" class="news-list">
+                    <!-- News items will be dynamically loaded here -->
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <div id="footer-placeholder"></div>
+    
+	<script src="prettystr.js"></script>
+    <script src="include.js"></script>
+	<script>
+		document.addEventListener("DOMContentLoaded", function() {
+			// Fetch and display news items
+			fetch('news.json')
+				.then(response => response.json())
+				.then(data => {
+					const newsList = document.getElementById('news-list');
+					data.forEach(news => {
+						const newsItem = document.createElement('div');
+						newsItem.classList.add('news-item');
+
+						// Generate a unique ID from the title by removing non-alphanumeric characters and using camel casing
+						const newsId = news.title
+										.toLowerCase()
+										.replace(/[^a-z0-9\s]/g, '') // Remove non-alphanumeric characters
+										.split(' ')
+										.map((word, index) => index === 0 ? word : word.charAt(0).toUpperCase() + word.slice(1))
+										.join('');
+						newsItem.id = newsId;
+						
+						if (news.image) {
+							const img = document.createElement('img');
+							img.src = news.image;
+							img.alt = news.title;
+							newsItem.appendChild(img);
+						}
+
+						const content = document.createElement('div');
+						content.classList.add('news-content');
+
+						const title = document.createElement('h2');
+						title.textContent = news.title;
+						content.appendChild(title);
+
+						if (news.text) {
+							const text = document.createElement('p');
+							text.innerHTML = replaceLinksWithIcons(news.text);
+							content.appendChild(text);
+						}
+
+						if (news.link) {
+							const link = document.createElement('readmore');
+							link.innerHTML = `<a href="${news.link}" target="_blank">Read more</a>`;
+							content.appendChild(link);
+						}
+
+						newsItem.appendChild(content);
+						newsList.appendChild(newsItem);
+					});
+
+					// Scroll to the element with the ID specified in the URL hash
+					const hash = window.location.hash.substring(1); // Remove the '#' from the beginning
+					if (hash) {
+						const element = document.getElementById(hash);
+						if (element) {
+							element.scrollIntoView({ behavior: 'smooth' });
+						}
+					}
+				})
+				.catch(error => console.error('Error fetching news:', error));
+		});
+	</script>
+	
+</body>
+</html>

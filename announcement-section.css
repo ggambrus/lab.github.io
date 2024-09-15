@@ -1,0 +1,121 @@
+/* General styling for announcements section */
+
+.announcements-section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.announcement-item {
+    background: #f4f4f4;
+    border: 1px solid #ddd;
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #e0e0e0;
+    padding: 10px;
+    position: relative;
+}
+
+.announcement-item:last-child {
+    border-bottom: none;
+}
+
+.announcement-title-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.announcement-title-container h3 {
+    margin: 0;
+    font-size: 1.25em;
+    color: #333;
+    flex-grow: 1;
+}
+
+.pin-icon {
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}
+
+.announcement-item img {
+    max-width: 175px;
+    height:  max-content;
+    margin-right: 20px;
+    border-radius: 5px;
+    flex-shrink: 0;
+}
+
+.announcement-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.announcement-item .announcement-date {
+    margin-top: 10px;
+    font-size: 0.8em;
+    color: #999;
+    flex-shrink: 0;
+    text-align: center;
+}
+
+.announcement-item p {
+		margin: 0 0 10px 0;
+		color: #666;
+		font-size: 0.9em;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		display: -webkit-box;
+		 -webkit-line-clamp: 5;
+		 -webkit-box-orient:  block-axis;
+}
+
+.announcement-item a {
+    text-decoration: none;
+    color: #333;
+    background: #ddd;
+    padding: 5px 10px;
+    border-radius: 3px;
+    align-self: flex-end; /* Ensure the link is aligned to the bottom right */
+    margin-top: 10px;
+}
+
+.announcement-item a:hover {
+    text-decoration: underline;
+}
+
+/* Inactive announcements styling */
+.inactive {
+    background-color: #f0f0f0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .announcement-item {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .announcement-item img {
+        margin: 0 0 10px 0;
+        max-width: 100%;
+    }
+
+    .announcement-content {
+        text-align: left;
+    }
+
+    .announcement-item p {
+        width: 100%;
+    }
+
+    .announcement-item .announcement-date {
+        margin-top: 10px;
+        font-size: 0.8em;
+        color: #999;
+        text-align: center;
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "name": "Madeline Ely",
+    "photo": "profile_images\/MME.jpg",
+    "external_links": {
+        "orcid": "https:\/\/orcid.org\/0009-0002-7683-8179",
+        "researchgate": "https:\/\/www.researchgate.net\/profile\/Madeline-Ely-2"
+    },
+    "education": [
+		 {"degree"   : "Master's by Research (in progress)",
+		 "university": "Bournemouth University",
+		 "logo"      : "images\/logo_BU_64x64.png"},
+		 {"degree"    : "BSc (Hons) in Psychology",
+		 "university": "Bournemouth University",
+		 "logo"      : "images\/logo_BU_64x64.png"}
+    ],
+    "publications": {
+		"preprints":[
+				{"authors": "[@Ely, M. M.|member.html#ely], [@Ambrus, G. G.|member.html#ambrus]",
+				"year"    : "2024",
+				"title"   : "Shared Neural Dynamics of Facial Expression Processing",
+				"journal" : "bioRxiv",
+				"issnumpg": "2024-08",
+				"doi"     : "10.1101\/2024.08.05.606517", 
+				"link"    : "https:\/\/doi.org\/10.1101\/2024.08.05.606517"}
+		],
+        "talks": [
+				{"title": "The Neural Basis of Facial Expression Processing-Insights from Cross-Dataset Multivariate Pattern Analysis", "venue": "BU Cognition and Brain Sciences Seminar", "date": "10 April, 2024", "city":"Bournemouth","country": "United Kingdom"}
+        ],
+        "conferences": [
+
+				{"authors": "[@Ambrus, G. G.|member.html#ambrus] and [@Ely, M. M.|member.html#ely]", "year":"2024", "title": "Exploring Emotional Face Familiarity Effects: Insights from EEG Multivariate Pattern Analysis", "event": "DUCOG 15, Conference of the Central European Cognitive Science Association", "city": "Dubrovnik", "country": "Croatia", "eventlink": "https:\/\/ducog.cecog.eu\/"},
+				{"authors": "[@Ely, M. M.|member.html#ely] and [@Ambrus, G. G.|member.html#ambrus]", "year": "2024", "title": "Shared neural signals for the processing of facial expressions", "event": "INC2024, International Neuroscience Conference", "city": "Pécs", "country": "Hungary", "eventlink":"https:\/\/mitt2024.mitt.hu\/invitation"}
+        ]
+    }
+}

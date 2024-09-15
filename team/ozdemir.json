@@ -1,0 +1,22 @@
+{
+    "name": "Berfin Ozdemir",
+    "photo": "profile_images\/profile_2.png",
+    "external_links": {
+        "researchgate": "https:\/\/www.researchgate.net\/profile\/Berfin_Ozdemir"
+    },
+    "education": [
+		{"degree"    : "MSc in Cognitive Neuroscience",
+		 "university": "Bournemouth University",
+		 "logo"      : "images\/logo_BU_64x64.png"},
+		{"degree"    : "BSc in Biomedical Science",
+		 "university": "University of East Anglia",
+		 "logo"      : "images\/logo_UEA_64x64.png"}
+
+    ],
+    "publications": {
+        "conferences": [
+		{
+			"authors": "[@Ambrus, G. G.|member.html#ambrus] and [@Ozdemir, B.|member.html#ozdemir]", "year": "2024", "title": "Shared neural codes of encoding and retrieval", "event": "INC2024, International Neuroscience Conference", "city": "Pécs", "country": "Hungary", "eventlink":"https:\/\/mitt2024.mitt.hu\/invitation"}]
+    }
+
+}

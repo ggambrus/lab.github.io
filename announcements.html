@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Announcements - Neural Patterns of Cognition Lab</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="announcements-page.css">
+</head>
+<body>
+    <div id="header-placeholder"></div>
+    
+    <main>
+        <section class="news">
+            <div class="container">
+                <h1>Announcements</h1>
+                <div id="announcements-list" class="announcements-list">
+                    <!-- Announcements items will be dynamically loaded here -->
+                </div>
+            </div>
+        </section>
+    </main>
+    
+	<script src="prettystr.js"></script>
+    <div id="footer-placeholder"></div>
+    <script src="include.js"></script>
+    
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            fetch('announcements.json')
+                .then(response => response.json())
+                .then(data => {
+                    const announcementsList = document.getElementById('announcements-list');
+
+                    data.forEach(announcement => {
+                        const announcementItem = document.createElement('div');
+                        announcementItem.classList.add('announcement-item');
+
+                        // Add a class for inactive announcements
+                        if (!announcement.active) {
+                            announcementItem.classList.add('inactive');
+                        }
+
+                        const titleContainer = document.createElement('div');
+                        titleContainer.classList.add('announcement-title-container');
+
+                        const title = document.createElement('h3');
+                        title.textContent = announcement.title;
+                        titleContainer.appendChild(title);
+
+                        // Add pin icon if announcement is pinned
+                        if (announcement.pinned) {
+                            const pinIcon = document.createElement('img');
+                            pinIcon.src = 'assets\/pin.png';
+                            pinIcon.alt = 'Pinned';
+                            pinIcon.classList.add('pin-icon');
+                            titleContainer.appendChild(pinIcon);
+                        }
+
+                        // Add inactive icon if announcement is inactive
+                        if (!announcement.active) {
+                            const inactiveIcon = document.createElement('img');
+                            inactiveIcon.src = 'assets\/inactive.png';
+                            inactiveIcon.alt = 'Inactive';
+                            inactiveIcon.classList.add('inactive-icon');
+                            titleContainer.appendChild(inactiveIcon);
+                        }
+
+                        announcementItem.appendChild(titleContainer);
+
+                        const date = document.createElement('p');
+                        date.classList.add('announcement-date');
+                        date.textContent = announcement.date;
+                        announcementItem.appendChild(date);
+
+                        const contentContainer = document.createElement('div');
+                        contentContainer.classList.add('announcement-content-container');
+
+                        if (announcement.image) {
+                            const img = document.createElement('img');
+                            img.src = announcement.image;
+                            img.alt = announcement.title;
+                            contentContainer.appendChild(img);
+                        }
+
+                        if (announcement.text) {
+                            const text = document.createElement('p');
+							text.innerHTML = replaceLinksWithIcons(replaceRevealText(announcement.text));
+                            //text.textContent = announcement.text;
+                            contentContainer.appendChild(text);
+                        }
+
+                        announcementItem.appendChild(contentContainer);
+
+                        // Generate a unique ID from the title by removing non-alphanumeric characters and using camel casing
+                        const announcementId = announcement.title
+                                                .toLowerCase()
+                                                .replace(/[^a-z0-9\s]/g, '') // Remove non-alphanumeric characters
+                                                .split(' ')
+                                                .map((word, index) => index === 0 ? word : word.charAt(0).toUpperCase() + word.slice(1))
+                                                .join('');
+                        announcementItem.id = announcementId;
+
+                        announcementsList.appendChild(announcementItem);
+                    });
+
+                    // Scroll to the element with the ID specified in the URL hash
+                    const hash = window.location.hash.substring(1); // Remove the '#' from the beginning
+                    if (hash) {
+                        const element = document.getElementById(hash);
+                        if (element) {
+                            element.scrollIntoView({ behavior: 'smooth' });
+                        }
+                    }
+                })
+                .catch(error => console.error('Error fetching announcements:', error));
+        });
+    </script>
+</body>
+</html>

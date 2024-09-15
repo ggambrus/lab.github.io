@@ -1,0 +1,56 @@
+[
+    {
+        "name": "Dr. Géza Gergely Ambrus",
+		"profile_page": "member.html#ambrus",
+        "title" : "Lab Head",
+		"email" : "[*click to reveal|103,97,109,98,114,117,115,64,98,111,117,114,110,101,109,111,117,116,104,46,97,99,46,117,107]",
+		"alumni": false,
+        "image" : "profile_images\/GGA.jpg",
+        "bio"   : "Dr. Géza Gergely Ambrus is cognitive neuroscientist with a research focus on the neural signatures of perception,  memory and learning.",
+        "research_interests": "Memory, Learning, Person Perception, Neuroplasticity",
+        "publications": [
+            {
+                "title": "Shared neural codes of recognition memory",
+                "link": "https:\/\/doi.org\/10.1038\/s41598-024-66158-y"
+            },
+            {
+                "title": "Your place or mine? The neural dynamics of personally familiar scene recognition suggests category independent familiarity encoding",
+                "link": "https:\/\/doi.org\/10.1093\/cercor\/bhad397"
+            }
+        ]
+    },
+    {
+        "name": "Madeline Ely, BSc",
+        "title": "Student Researcher (MRes)",
+		"alumni": false,
+		"cooperation": false,
+        "image": "profile_images\/MME.jpg",
+		"profile_page": "member.html#ely",
+        "bio": "Madeline Ely\u0027s research focuses on neural mechanisms behind the perception and processing of facial expressions.",
+        "research_interests": "Affective Neuroscience, Face Processing",
+        "publications": [ ]
+    },
+	{
+        "name": "Chloe Kelsey, BSc",
+        "title": "Student Researcher (MSc)",
+		"alumni": false,
+		"cooperation": false,
+        "image": "profile_images\/CK.jpg",
+		"profile_page": "member.html#kelsey",
+        "bio": "Chloe Kelsey\u0027s research focuses on neural mechanisms behind the perception and processing of facial attributes.",
+        "research_interests": "Affective Neuroscience, Face Processing",
+        "publications": [ ]
+    },
+
+	
+	{
+        "name": "Berfin Ozdemir, MSc",
+        "title": "Student Researcher (MSc, 2022-2024)",
+		"alumni": true,
+        "image": "profile_images\/profile_2.png",
+		"profile_page": "member.html#ozdemir",
+        "bio": "Berfin Ozdemir\u0027s research focuses on the shared neural signatures of learning and memory.",
+        "research_interests": "Learning, Memory",
+        "publications": [ ]
+    }
+]

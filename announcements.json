@@ -1,0 +1,27 @@
+[
+    {
+        "title": "EEG Experiments Seeking Participants",
+        "image": "news_images\/eeg1.jpg",
+        "date": "2024-09-15",
+        "text": "<strong>Would you like to know more about how we investigate how the brain works?<\/strong><br><br>Our laboratory is currently conducting EEG experiments and is looking for healthy volunteers to participate.<br><br> <strong>What's involved:<\/strong><br><ul><li><strong>EEG recording:<\/strong> During the experiment, we will record your brain activity using electroencephalography (EEG).This is a non-invasive procedure that involves placing electrodes on your scalp.<\/li><li><strong>Tasks:<\/strong> The experiments typically involve performing simple tasks, such as face recognition and memory tests.<\/li><li><strong>Time commitment:<\/strong> Our experiments usually last 1-2 hours.<\/li><li><strong>Compensation:<\/strong> Participants will receive SONA credits for their time (typically 1-2 SONA credits, 1 credit\/hour, 15 minute increments).<\/li> <li><strong>Place:<\/strong> Bournemouth University, Talbot Campus.<\/li><\/ul><br><strong>To participate:<\/strong> <br><br>If you are interested in participating in one of our current EEG studies, please contact [@Géza Gergely Ambrus|member.html#ambrus] via [*click to reveal|103,97,109,98,114,117,115,64,98,111,117,114,110,101,109,111,117,116,104,46,97,99,46,117,107]. <br><br><i>image source:</i> File:Treinamento de EEG-57.jpeg. (2024, January 17). <a href=\"https:\/\/commons.wikimedia.org\/w\/index.php?title=File:Treinamento_de_EEG-57.jpeg&oldid=842637847\">Wikimedia Commons<\/a>.",
+        "active": true,
+        "pinned": true
+    },
+	
+    {
+        "_title": "template 1",
+        "_image": "news_images\/conference.jpg",
+        "_date": "2024-08-15",
+        "_text": "template text",
+        "_active": true,
+        "_pinned": false
+    },
+    {
+        "_title": "template 2",
+        "_image": "news_images\/research.jpg",
+        "_date": "2024-09-10",
+        "_text": "template2",
+        "_active": false,
+        "_pinned": false
+    }
+]

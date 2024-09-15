@@ -1,0 +1,24 @@
+{
+    "name": "Chloe Kelsey",
+    "photo": "profile_images\/CK.jpg",
+    "external_links": {
+        "researchgate": "https:\/\/www.researchgate.net\/profile\/Chloe-Kelsey"
+    },
+    "education": [
+		{"degree"    : "MSc in Clinical and Developmental Neuropsychology (in progress)",
+		 "university": "Bournemouth University",
+		 "logo"      : "images\/logo_BU_64x64.png"},
+		{"degree"    : "BSc (Hons) in Psychology with Forensic Investigation",
+		 "university": "Bournemouth University",
+		 "logo"      : "images\/logo_BU_64x64.png"}
+
+    ],
+	"_comment":{
+    "publications": {
+        "journal_articles": [],
+        "book_chapters": [],
+        "talks": [],
+        "conferences": []
+    }
+	}
+}

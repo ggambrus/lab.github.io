@@ -1,0 +1,43 @@
+[
+    {
+        "title": "New Research Published - Shared Neural Codes of Recognition Memory",
+        "image": "news_images\/scirep2024.jpg",
+        "link": "https:\/\/www.nature.com\/articles\/s41598-024-66158-y",
+		"date": "09-07-2024",
+        "text": "Published in Scientific Reports on July 9, 2024, our recent study explores the electrophysiological markers of successful memory retrieval, using EEG data from six experiments with healthy participants. The research utilized a dataset of highly familiar and unfamiliar faces to examine the temporal evolution of shared information in different memory conditions. \n Findings reveal that recognition memory signals for faces generalized from about 200 ms post-stimulus onset. When trained on non-face datasets, an early to late differentiation (200-300 ms to post-400 ms) emerged across most brain regions. Notably, cross-classification of non-face stimuli, including music and object/scene associations, was most effective in the late period.\n A key discovery was the distinct neural patterns for familiar versus remembered objects. For remembered objects, shared signals appeared only in the late window, whereas familiar objects also showed early-period cross-classification success.\n In summary, this study found that late neural signals of memory retrieval are consistent across sensory modalities and stimulus types."
+    },
+	{
+        "title": "DUCOG 15, Dubrovnik Conference on Cognitive Science",
+        "image": "news_images\/DUCOG2024.jpg",
+        "text": "On May 25, 2024, [@Géza|member.html#ambrus] presented the latest research from our lab at the 15th Dubrovnik Conference on Cognitive Science, in Dubrovnik, Croatia."
+    },
+    {
+        "title": "INC2024, International Neuroscience Conference",
+        "image": "news_images\/INC2024.jpg",
+        "text": "On January 25, 2024, [@Maddie|member.html#ely] presented her research on the shared neural signals for the processing of facial expressions at the International Neuroscience Conference (INC2024), in Pécs, Hungary."
+    },
+	{
+        "title": "New research on the shared neural signatures of familiar face and scene processing published",
+        "image": "news_images\/cercor2023.jpg",
+        "link": "https:\/\/academic.oup.com\/cercor\/article-abstract\/33\/24\/11634\/7330608",
+		"date": "26-10-2023",
+        "text": "Published in Cerebral Cortex on October 26, 2023, our recent study examined the shared representational dynamics of personally familiar faces and scenes. Participants viewed highly variable images of their own apartments and unfamiliar ones, as well as personally familiar and unfamiliar faces. Multivariate pattern analyses were used to examine the time course of differential processing of familiar and unfamiliar stimuli. Time-resolved classification revealed that familiarity is decodable from the EEG data similarly for scenes and faces. The temporal dynamics showed delayed onsets and peaks for scenes as compared to faces. Familiarity information, starting at 200 ms, generalized across stimulus categories and led to a robust familiarity effect. In addition, familiarity enhanced category representations in early (250–300 ms) and later (>400 ms) processing stages. Our results extend previous face familiarity results to another stimulus category and suggest that familiarity as a construct can be understood as a general, stimulus-independent processing step during recognition."
+    },
+	{
+        "title": "Cutting EEG 2023",
+        "image": "news_images\/CG2023.jpg",
+		"link" : "https:\/\/cuttinggardens2023.org",
+        "text": "On October 17, 2023, [@Géza|member.html#ambrus] gave a talk on machine learning and EEG at the Cutting Gardens EEG and MEG methods multi-hub meeting."
+	},
+	{
+        "title": "GEM2023, conference on Generative Episodic Memory",
+        "image": "news_images\/GEM2023.jpg",
+        "text": "On June 13, 2023, [@Géza|member.html#ambrus] gave a talk on the exploration of the generalizability of recognition memory signals via multivariate cross-classification at the Generative Episodic Memory (GEM2023) conference in Bochum, Germany."
+	},
+	{
+        "title": "“Mind-reading Machines” - Café Scientifique",
+        "image": "news_images\/CS2023.jpg",
+        "text": "On May 2, 2023, [@Géza|member.html#ambrus] talked about how machine learning algorithms could decode brain activity and reconstruct subjective experiences at the Bournemouth <i>Café Scientifique</i> event (“Mind-reading Machines”)."
+	}	
+    
+]

@@ -1,0 +1,168 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+	/*position: fixed;
+	top: 0;	*/
+
+	background: #333;
+    color: #fff;
+    padding: 1rem 0;
+	
+	width: 100%;
+    transition: 0.2s;
+    z-index: 1002;
+}
+
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+header .logo img {
+    max-height: 50px;
+    margin-right: 10px;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+.intro, .highlights, .members, .publications, .contact {
+    margin: 20px 0;
+}
+
+.intro h1, .highlights h2, .members h1, .publications h1, .contact h1 {
+    margin-top: 0;
+}
+
+.news-item, .member, .publication {
+    background: #f4f4f4;
+    padding: 20px;
+    margin: 20px 0;
+    border: 1px solid #ddd;
+}
+
+.news-item h3, .member h2, .publication h2 {
+    margin-top: 0;
+}
+
+.member {
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.member img {
+    max-width: 150px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 20px;
+}
+
+.member h2 {
+    margin-top: 0;
+}
+
+.member .title {
+    font-style: italic;
+    color: #666;
+}
+
+.member .bio, .member .research-interests, .member .email, .member .publications {
+    margin: 10px 0;
+}
+
+.member .publications ul {
+    list-style: none;
+    padding: 0;
+}
+
+.member .publications ul li {
+    margin: 5px 0;
+}
+/* Pretty links for profiles */
+.link-icon {
+	margin-right: 5px;
+}
+ /* unvisited link */
+a.internal-link:link {
+  text-decoration: none;
+  color: #006d2c;
+}
+
+/* visited link */
+a.internal-link:visited {
+  color: #006d2c;
+}
+
+/* mouse over link */
+a.internal-link:hover {
+  color: #31a354;
+}
+
+/* selected link */
+a.internal-link:active {
+  color: #006d2c;
+} 
+
+
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+    .member img {
+        margin-right: 20px;
+    }
+
+    body {
+		line-height: 1.25;
+		font-size: 85%;
+	}
+
+    header nav ul li {
+        margin-left: 30px;
+    }
+}
