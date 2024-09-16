@@ -50,7 +50,7 @@
 
 .announcement-content {
     flex: 1;
-    display: contents;
+    display: block;
     flex-direction: column;
     justify-content: space-between;
 }
@@ -107,7 +107,7 @@
 
     .announcement-content {
         text-align: left;
-		display:content;
+		display:contents;
     }
 
     .announcement-item p {
