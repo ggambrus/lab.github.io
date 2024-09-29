@@ -20,6 +20,7 @@
 						<div class= "link-tags">
 							<div class="external-links" id="external-links"></div>
 							<div class="social-media" id="social-media"></div>
+							<div class="external-links" id="email"></div>
 						</div>
                     </div>
                 </div>
@@ -80,6 +81,13 @@
                     socialMedia.appendChild(link);
                 }
             }
+			
+			// Email
+			const eMail = document.getElementById('email');
+			if (data.email) {
+				email_text = data.email;
+				eMail.innerHTML = "<strong>Email:</strong>" + replaceRevealText(email_text);
+			}
 
             // Populate profile details
             const profileDetails = document.querySelector('.profile-details');
