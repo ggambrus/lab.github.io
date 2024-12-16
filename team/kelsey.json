@@ -13,12 +13,12 @@
 		 "logo"      : "images\/logo_BU_64x64.png"}
 
     ],
-	"_comment":{
+	
     "publications": {
-        "journal_articles": [],
-        "book_chapters": [],
-        "talks": [],
-        "conferences": []
+
+        "conferences": [
+			{"authors": "[@Ely, M. M.|member.html#ely], [@Kelsey, C.|member.html#kelsey] and [@Ambrus, G. G.|member.html#ambrus]", "year": "2024", "title": "Exploring Gender Information in the Processing of Emoji Faces", "event": "Broadmoor Hospital Seminar Series", "city": "Crowthorne", "country": "United Kingdom", "eventlink":"https://www.eventbrite.com/e/broadmoor-hospital-seminar-series-mental-disorder-and-the-internet-tickets-1040434797487"}	
+		]
     }
-	}
+	
 }
