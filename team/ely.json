@@ -14,12 +14,12 @@
 		 "logo"      : "images\/logo_BU_64x64.png"}
     ],
     "publications": {
-		"preprints":[
+		"journal_articles":[
 				{"authors": "[@Ely, M. M.|member.html#ely], [@Ambrus, G. G.|member.html#ambrus]",
-				"year"    : "2024",
+				"year"    : "2025",
 				"title"   : "Shared Neural Dynamics of Facial Expression Processing",
-				"journal" : "bioRxiv",
-				"issnumpg": "2024-08",
+				"journal" : "Cognitive Neurodynamics",
+				"issnumpg": "accepted",
 				"doi"     : "10.1101\/2024.08.05.606517", 
 				"link"    : "https:\/\/doi.org\/10.1101\/2024.08.05.606517"}
 		],

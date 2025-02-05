@@ -24,6 +24,14 @@
     ],
     "publications": {
         "journal_articles": [
+			{"authors": "[@Ely, M. M.|member.html#ely], [@Ambrus, G. G.|member.html#ambrus]",
+				"year"    : "2025",
+				"title"   : "Shared Neural Dynamics of Facial Expression Processing",
+				"journal" : "Cognitive Neurodynamics",
+				"issnumpg": "accepted",
+				"doi"     : "10.1101\/2024.08.05.606517", 
+				"link"    : "https:\/\/doi.org\/10.1101\/2024.08.05.606517"},
+		
 			{"authors": "[@Ambrus, G. G.|member.html#ambrus]",	"year": "2024",	"title": "Shared neural codes of recognition memory",	"journal": "Scientific Reports",	"issnumpg": "14(1), 15846",	"doi":"10.1038/s41598-024-66158-y", "link": "https:\/\/doi.org\/10.1038/s41598-024-66158-y "},
 			{"authors": "Klink, H., Kaiser, D., Stecher, R., <u>[@Ambrus, G. G.|member.html#ambrus], & Kovács, G.</u>",	"year": "2023",	"title": "Your place or mine? The neural dynamics of personally familiar scene recognition suggests category independent familiarity encoding",	"journal": "Cerebral Cortex",	"issnumpg": "33(24), 11634–11645",	"doi":"10.1093/cercor/bhad397", "link": "https:\/\/doi.org\/10.1093/cercor/bhad397"},
 			{"authors": "Kovács, G., Li, C., [@Ambrus, G. G.|member.html#ambrus], & Burton, A. M.",	"year": "2023",	"title": "The neural dynamics of familiarity-dependent face identity representation",	"journal": "Psychophysiology",	"issnumpg": "60(9), e14304",	"doi":"10.1111/psyp.14304", "link": "https:\/\/doi.org\/10.1111/psyp.14304"},
