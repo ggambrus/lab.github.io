@@ -8,7 +8,7 @@ This page provides a brief overview of EEG and general study expectations. Upon 
 | ![EEG](images//Treinamento_de_EEG-21.jpeg =50%x50%)  | 
 |An EEG recording setup. Source: https://commons.wikimedia.org/wiki/Category:Electroencephalogram#/media/File:Treinamento_de_EEG-21.jpeg |
 
-Electroencephalography (EEG) is a safe, non-invasive technique used to measure natural electrical activity in the brain. Small sensors are placed on the scalp using a soft cap, and no radiation, needles, or electrical currents are involved. The process is painless and widely used in both research and clinical settings.
+Electroencephalography (EEG) is a safe, non-invasive technique used to measure natural electrical activity in the brain. Small sensors are placed on the scalp using a soft cap, and no radiation, or electrical currents are involved. The process is painless and widely used in both research and clinical settings.
 
 ## What to Expect During the Session
 
