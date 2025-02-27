@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neural Patterns of Cognition Lab</title>
+    <link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="markdown.css">
+</head>
+
+<!--script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script-->
+<!--script src="https://cdn.jsdelivr.net/npm/marked-custom-heading-id/lib/index.umd.js"></script-->
+
+<script src="https://cdn.rawgit.com/showdownjs/showdown/2.0/dist/showdown.min.js"></script>
+
+<body>
+    <div id="header-placeholder"></div>
+    
+    <main>
+        <section class="highlights">
+			<div class="container">
+				<div id="markdown-placeholder"></div>
+			</div>
+        </section>
+    </main>
+    
+    <div id="footer-placeholder"></div>
+    
+    <script src="include.js"></script>
+	
+    <!--script>
+        document.addEventListener("DOMContentLoaded", function() {
+			fetch('test.md')
+                .then(response => response.text())
+                .then(markdown => {
+					marked.use();
+                    const markdownPlaceholder = document.getElementById('markdown-placeholder');
+                    markdownPlaceholder.innerHTML = marked.parse(markdown);
+                })
+                .catch(error => console.error('Error fetching markdown file:', error));
+        });
+    </script-->
+	
+	<script>
+	    document.addEventListener("DOMContentLoaded", function() {
+			fetch('eeg_participants.md')
+                .then(response => response.text())
+                .then(markdown => {
+					
+					showdown.setFlavor('github');
+					
+					//var showdown  = require('showdown'),
+					converter = new showdown.Converter(),
+					converter.setOption('tables', true);
+					converter.setOption('parseImgDimension', true);
+					
+					html      = converter.makeHtml(markdown);
+					
+					
+                    const markdownPlaceholder = document.getElementById('markdown-placeholder');
+                    markdownPlaceholder.innerHTML = html;
+                })
+                .catch(error => console.error('Error fetching markdown file:', error));
+        });
+	</script>
+	
+
+</body>
+</html>

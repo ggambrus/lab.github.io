@@ -1,0 +1,125 @@
+
+/* Markdown Styles */
+#markdown-placeholder h1,
+#markdown-placeholder h2,
+#markdown-placeholder h3,
+#markdown-placeholder h4,
+#markdown-placeholder h5,
+#markdown-placeholder h6 {
+    color: #343a40;
+    margin-top: 1.5rem;
+    margin-bottom: 0.75rem;
+    line-height: 1.2;
+}
+
+#markdown-placeholder h1 {
+    font-size: 2rem;
+    border-bottom: 2px solid #343a40;
+    padding-bottom: 0.5rem;
+}
+
+#markdown-placeholder h2 {
+    font-size: 1.75rem;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 0.3rem;
+}
+
+#markdown-placeholder h3 {
+    font-size: 1.5rem;
+}
+
+#markdown-placeholder h4 {
+    font-size: 1.25rem;
+}
+
+#markdown-placeholder h5 {
+    font-size: 1rem;
+}
+
+#markdown-placeholder h6 {
+    font-size: 0.875rem;
+    color: #6c757d;
+}
+
+#markdown-placeholder p {
+    margin: 0 0 1rem;
+}
+
+#markdown-placeholder a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+#markdown-placeholder a:hover {
+    text-decoration: underline;
+}
+
+#markdown-placeholder blockquote {
+    border-left: 4px solid #ccc;
+    padding-left: 1rem;
+    color: #6c757d;
+    margin: 1.5rem 0;
+    font-style: italic;
+}
+
+#markdown-placeholder pre {
+    background: #f8f9fa;
+    padding: 1rem;
+    overflow: auto;
+    border-radius: 5px;
+    margin-bottom: 1.5rem;
+}
+
+#markdown-placeholder code {
+    background: #f8f9fa;
+    padding: 0.2rem 0.4rem;
+    border-radius: 3px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#markdown-placeholder pre code {
+    padding: 0;
+    background: none;
+}
+
+#markdown-placeholder ul,
+#markdown-placeholder ol {
+    margin: 0 0 1.5rem 1.5rem;
+}
+
+#markdown-placeholder ul li,
+#markdown-placeholder ol li {
+    margin-bottom: 0.5rem;
+}
+
+#markdown-placeholder table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1.5rem;
+}
+
+#markdown-placeholder th,
+#markdown-placeholder td {
+    border: 1px solid #ddd;
+    padding: 0.5rem;
+}
+
+#markdown-placeholder th {
+    background-color: #f1f1f1;
+    text-align: left;
+}
+
+#markdown-placeholder img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 1rem 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    main {
+        margin: 1rem;
+        padding: 1rem;
+    }
+}
